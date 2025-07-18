@@ -1,0 +1,22 @@
+
+name: ResourceMonitor
+version: 1.0.0
+main: com.resourcemonitor.Main
+api-version: 1.13
+author: S - Development
+description: A comprehensive server resource monitoring plugin for Spigot, Paper, Bukkit and forks
+
+commands:
+  resourcemonitor:
+    description: Display server resource information
+    usage: /resourcemonitor
+    aliases: [rm, resources, monitor]
+    permission: resourcemonitor.use
+
+permissions:
+  resourcemonitor.use:
+    description: Allows use of the resource monitor command
+    default: op
+  resourcemonitor.listplugins:
+    description: Allows viewing detailed plugin information
+    default: op
